@@ -25,8 +25,10 @@ const MobileSide = () => {
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >
-        <div  className="mt-10">
-          <Aside />
+        <div  className="flex justify-center items-center mt-10">
+            <div>
+              <Aside />
+            </div>
         </div>
       </div>
     </>

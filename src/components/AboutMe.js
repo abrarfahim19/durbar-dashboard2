@@ -4,7 +4,9 @@ import { ImFacebook, ImLinkedin, ImTwitter } from "react-icons/im";
 const AboutMe = () => {
   return (
     <div className="p-4">
-      <h2 className="text-xl text-white font-bold text-left">About Me</h2>
+      <h2 className="text-lg text-white font-bold text-left italic">
+        About Me
+      </h2>
       <div className="flex flex-col justify-center items-center">
         <div className="w-40 h-40 rounded-full flex items-center justify-center bg-slate-100">
           <img src={person} className="w-20" alt="" />
@@ -18,7 +20,7 @@ const AboutMe = () => {
         <p className="text-white mt-2">
           <span className="text-red-500">Mobile Number</span>: +8801627038567
         </p>
-        <button className="rounded-full py-2 px-4 w-44 bg-orange-600 mt-2">
+        <button className="rounded-full py-2 px-4 w-44 bg-orange-600 mt-2 text-white font-semibold">
           {" "}
           Profile
         </button>
