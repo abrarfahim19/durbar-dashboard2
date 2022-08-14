@@ -9,7 +9,7 @@ function App() {
       <Header />
       <div className="App container mx-auto">
         <div className="grid grid-cols-12">
-          <div className="hidden md:col-span-2 md:block bg-slate-300">
+          <div className="hidden md:col-span-2 md:block bg-[#32363F]">
             <Aside />
           </div>
           <div className="md:col-span-10 col-span-12">
